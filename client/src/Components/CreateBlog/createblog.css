@@ -1,0 +1,8 @@
+.new-blog-contain {
+  margin: 20px 100px;
+}
+
+.new-blog-heading {
+  justify-content: space-between;
+  display: flex;
+}

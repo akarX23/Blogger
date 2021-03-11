@@ -1,0 +1,69 @@
+.blog-preface-contain {
+  border-radius: 15px;
+  padding: 15px;
+  height: 250px;
+  box-shadow: 0 0 7px black;
+  width: 80%;
+  margin: 40px auto 20px auto;
+  transition: all 0.2s linear;
+  background-color: rgba(37, 36, 36, 0.904);
+}
+
+.main-blog-preface-contain {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-preface-contain:hover {
+  transform: scale(1.07);
+}
+
+.blog-preface-contain h1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 5px 0;
+  border-bottom: 1px solid rgb(206, 202, 202);
+  padding-bottom: 5px;
+  color: orange;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+}
+
+.author {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  margin: 5px 0;
+}
+
+.date {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.932);
+  margin: 5px 0;
+}
+
+.blog-body {
+  border-top: 1px solid rgb(216, 212, 212);
+  padding-top: 5px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  margin: 5px 0;
+  display: -webkit-box;
+  max-width: 100%;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.edit-blog {
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+  font-size: 20px;
+  padding: 10px;
+  background-color: orange;
+  width: max-content;
+  cursor: pointer;
+  color: black;
+  margin: 0 auto;
+}

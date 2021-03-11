@@ -1,0 +1,10 @@
+.nav-link {
+  font-size: 18px;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 0 10px;
+}
+
+.nav-link :hover {
+  color: #008bdc;
+}

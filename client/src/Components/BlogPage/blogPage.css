@@ -1,0 +1,27 @@
+.blog-contain {
+  margin: 20px 50px;
+}
+
+.blog-heading {
+  font-weight: 600;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(65, 65, 65);
+  padding-bottom: 5px;
+  font-size: 50px;
+}
+
+.blog-info {
+  margin: 15px 0;
+  border-bottom: 1px solid rgb(65, 65, 65);
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.blog-page-body {
+  font-size: 25px;
+  background-color: #121212c0;
+  border-radius: 10px;
+  box-shadow: 0 0 5px black;
+  padding: 10px 20px;
+  color: white;
+}

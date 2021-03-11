@@ -1,0 +1,13 @@
+.blog-like-contain {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+.blog-interact-pair {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin-right: 80px;
+}

@@ -1,0 +1,37 @@
+.authenticate-contain {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -99;
+}
+
+.form-contain {
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 10px grey;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.form-contain p {
+  font-size: 25px;
+}
+
+.change-form {
+  font-size: 17px;
+  color: #008bdc;
+  margin: 0 10px 10px 0;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.change-form:hover {
+  text-decoration: underline;
+}

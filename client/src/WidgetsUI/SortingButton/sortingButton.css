@@ -1,0 +1,19 @@
+.sort-bt-contain {
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 18px;
+  box-shadow: 2px 2px 5px rgba(119, 119, 119, 0.788);
+  transition: all 0.3s ease-in;
+  padding: 10px;
+  margin: 0 20px;
+}
+
+.pressed {
+  background-color: #4daf50;
+  color: white !important;
+}
+
+.released {
+  background-color: whitesmoke;
+  color: black !important;
+}

@@ -1,0 +1,8 @@
+.edit-blog-contain {
+  margin: 20px 100px;
+}
+
+.edit-blog-heading {
+  display: flex;
+  justify-content: flex-end;
+}
