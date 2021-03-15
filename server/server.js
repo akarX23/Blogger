@@ -22,11 +22,6 @@ app.use(express.static("client/build"));
 
 //CONNECTION TO DATABASE
 mongoose.connect(
-  config.DATABASE,
-app.use(express.static(path.resolve(__dirname, "../client/build"))));
-
-//CONNECTION TO DATABASE
-mongoose.connect(
   "mongodb+srv://akarX:Ritikmongo123@blogger.tylcn.mongodb.net/blogger?retryWrites=true&w=majority",
   { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true },
   (err) => {
@@ -38,7 +33,6 @@ mongoose.connect(
 //REQUESTS
 require("./requests/userRequests")(app);
 require("./requests/blogRequests")(app);
-
 
 app.get("*", (req, res) => {
   res.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
